@@ -1,0 +1,63 @@
+ek aise project jisme students ke marks add krne pr uska approx cgpa dikhaye
+
+ya phir
+
+CA marks input krke result mai ye dikhayenge ki aapko end sem mai kitna lana hai jisse cgpa 9(any variable) ban sakte hai
+
+input CA marks for passing
+
+Semester 1: The table below shows how to calculate SGPA for someone who has studied 7 subjects with varying credits. 
+
+Course Code	Total
+Credits	Credits
+Earned	    Grade
+            Achieved	
+                Grade
+                    Points	Points
+                            [Credits Earned
+                            *Grade Points]
+TWU COM	4	4	B+	8	32(8 *4)
+TWU LIB	4	4	C+	6	24(6*4)
+TWU POL	4	4	A+	10	40(10*4)
+TWU HIS	4	4	A-	9	36
+TWU PAI	3	3	C-	5	15
+TWU REW	2	2	B-	7	14
+TWU GTR	2	2	A-	9	18
+
+Total	23	23	–   –   179
+
+sgpa= 179/23
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Semester 2: In this case, we assume that the student did not appear for or failed in one of the subjects.
+
+
+TWU COM	4	4	B+	8	32
+TWU LIB	4	4	C+	6	24
+TWU POL	4	4	A+	10	40
+TWU HIS	4	0	F	0	0   (Fail )
+TWU PAI	3	3	C-	5	15
+TWU REW	2	2	B-	7	14
+TWU GTR	2	2	A-	9	18
+
+
+Total	23	19	        143
+
+take total credit as 19
+
+SGPA  *143/19=7.52*
+
+----------------------------------------------------------------------------------------------------------------------------
+
+SGPA to CGPA
+Now that you know how to calculate SGPA, you can also convert it into CGPA with this formula:
+
+CGPA= (SGPAs of All semesters in an academic year)/Number of semesters
+
+For example, if you have 9 SGPA in 1st semester and 8 SGPA in 2nd semester, the CGPA for your first year will be:
+CGPA= [SGPA of 1st Semester + SGPA of 2nd Semester] Divided by Number of Semesters
+    = (9+8)/2
+    = 8.5 CGPA
+

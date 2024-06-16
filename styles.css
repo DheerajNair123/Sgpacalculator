@@ -1,0 +1,62 @@
+/* Set a linear gradient background for the entire page */
+body {
+    background: linear-gradient(45deg, #FC8EAC, #FFC1CC);
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: set a default font */
+    height: 100vh; /* Ensure the body takes the full height of the viewport */
+}
+
+/* Container styling */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff; /* Ensure container background is white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better separation */
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make button full width */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ /* Remove spinner controls (stepper) for number input fields */
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* Other browsers */
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
